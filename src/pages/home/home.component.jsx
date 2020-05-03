@@ -12,7 +12,7 @@ const Home = () => {
         <div className="home-content__container">
           <div className="heading">
             <h1 className="heading__primary">Hello World,</h1>
-            <h2 className="heading__presentation">I'm Deyvison!</h2>
+            <h2 className="heading__presentation">I'm Deyvison.</h2>
             <p className="heading__text">
               Since 2015 I have been developing web applications and in this
               meantime, I have had the opportunity of taking significant

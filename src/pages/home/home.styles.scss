@@ -38,6 +38,14 @@
   & > *:not(:last-child) {
     margin-right: 1.5rem;
   }
+
+  & > *:last-child > svg {
+    transition: color .2s ease-in-out;
+  }
+
+  & > *:hover:last-child > svg {
+    color: #0077B5;
+  }
 }
 
 .link-text {

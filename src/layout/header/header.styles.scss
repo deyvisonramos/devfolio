@@ -57,7 +57,7 @@
     background-color: var(--color-primary);
     transform: scaleY(0);
     transform-origin: bottom;
-    transition: transform 0.2s, width 0.4s cubic-bezier(1, 0, 0, 1) 0.2s, background-color 0.1s;
+    transition: transform 0.2s, width 0.4s cubic-bezier(1, 0, 0, 1) 0.2s, background-color 0.2s;
   }
 
   &__item:hover::before,
@@ -67,7 +67,7 @@
   }
 
   &__item:active::before {
-    background-color: var(--color-grey-light-4);
+    background-color: var(--color-grey-dark);
   }
 
   &__link:link,
