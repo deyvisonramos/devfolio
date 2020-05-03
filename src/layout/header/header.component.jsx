@@ -1,6 +1,7 @@
 import React from "react";
 
-import "./header.styles.scss";
+import './header.styles.scss';
+import img from 'assets/images/deyvison-ramos-profile.jpg';
 
 const Header = () => {
   return (
@@ -8,7 +9,7 @@ const Header = () => {
       <div className="logo-box">
         <a href="/" className="logo-box__link">
           <img
-            src="https://afernandes.adv.br/wp-content/uploads/Team-Member-3.jpg"
+            src={img}
             alt="deyvison's profile"
             className="logo-box__image"
           />
@@ -17,7 +18,7 @@ const Header = () => {
       </div>
       <nav className="nav-menu">
         <ul className="nav-menu__list">
-          <li className="nav-menu__item"><a href="#" className="nav-menu__link">Home</a></li>
+          <li className="nav-menu__item nav-menu__item--active"><a href="#" className="nav-menu__link">Home</a></li>
           <li className="nav-menu__item"><a href="#" className="nav-menu__link">Work</a></li>
           <li className="nav-menu__item"><a href="#" className="nav-menu__link">About</a></li>
           <li className="nav-menu__item"><a href="#" className="nav-menu__link">Contact</a></li>
