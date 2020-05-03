@@ -30,7 +30,7 @@ const Home = () => {
               <FaEnvelope size={24} />
               <span className='link-text'>Drop me a line</span>
             </CustomButton>
-            <CustomButton type={'link'} url={'https://www.linkedin.com/in/deyvison-ramos/'} >
+            <CustomButton type='link' url='https://www.linkedin.com/in/deyvison-ramos/' target='_blank' >
               <FaLinkedin size={24} />
               <span className="link-text">Link it up!</span>
             </CustomButton>
