@@ -1,0 +1,45 @@
+.home-content {
+  background-image: linear-gradient(to right, #232526, #414345);
+  color: var(--color-white);
+  display: flex;
+  justify-content: center;
+  height: 100%;
+
+  &__container {
+    max-width: 80rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
+
+.heading {
+  // line-height: 1rem;
+
+  &__primary {
+    font-size: 3rem;
+    margin: 0;
+  }
+
+  &__presentation {
+    font-size: 5rem;
+    line-height: 1.2;
+    margin-bottom: 3rem;
+  }
+
+  &__text {
+    font-size: 1.6rem;
+  }
+}
+
+.in-touch {
+  display: flex;
+
+  & > *:not(:last-child) {
+    margin-right: 1.5rem;
+  }
+}
+
+.link-text {
+  margin-left: .5rem;
+}

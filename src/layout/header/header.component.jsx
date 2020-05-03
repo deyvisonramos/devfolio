@@ -9,7 +9,7 @@ const Header = () => {
         <a href="/" className="logo-box__link">
           <img
             src="https://afernandes.adv.br/wp-content/uploads/Team-Member-3.jpg"
-            alt="logo image"
+            alt="deyvison's profile"
             className="logo-box__image"
           />
           <span className="logo-box__text">deyvisonRamos</span>
