@@ -2,19 +2,20 @@ import React from "react";
 
 import './header.styles.scss';
 import img from 'assets/images/deyvison-ramos-profile.jpg';
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
     <header className="header">
       <div className="logo-box">
-        <a href="/" className="logo-box__link">
+        <Link to="/" className="logo-box__link">
           <img
             src={img}
             alt="deyvison's profile"
             className="logo-box__image"
           />
           <span className="logo-box__text">deyvisonRamos</span>
-        </a>
+        </Link>
       </div>
       <nav className="nav-menu">
         <ul className="nav-menu__list">
