@@ -2,6 +2,7 @@
   // background-color: linear-gradient(to right, #232526, #414345);
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   padding: 2rem;
   border-bottom: var(--thin-line);
 }
