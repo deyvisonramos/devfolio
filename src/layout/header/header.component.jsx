@@ -1,7 +1,7 @@
 import React from "react";
 
 import './header.styles.scss';
-import img from 'assets/images/deyvison-ramos-profile.jpg';
+// import img from 'assets/images/deyvison-ramos-profile.jpg';
 import { Link } from "react-router-dom";
 
 const Header = () => {
@@ -9,12 +9,12 @@ const Header = () => {
     <header className="header">
       <div className="logo-box">
         <Link to="/" className="logo-box__link">
-          <img
+          {/* <img
             src={img}
             alt="deyvison's profile"
             className="logo-box__image"
-          />
-          <span className="logo-box__text">deyvisonRamos</span>
+          /> */}
+          <span className="logo-box__text">DeyvisonRamos</span>
         </Link>
       </div>
       <nav className="nav-menu">
