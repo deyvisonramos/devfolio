@@ -1,6 +1,6 @@
 import React from "react";
 
-import { FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
 
 import "./home.styles.scss";
 import CustomButton from "../../ui/button/custom-button.component";
@@ -26,9 +26,9 @@ const Home = () => {
             </p>
           </div>
           <div className="in-touch">
-            <CustomButton type={'link'} url={'mailto:test@gmail.com'} >
-              <FaEnvelope size={24} />
-              <span className='link-text'>Drop me a line</span>
+            <CustomButton type={'link'} url={'https://github.com/deyvisonramos'} target='_blank' >
+              <FaGithub size={24} />
+              <span className='link-text'>PR me!</span>
             </CustomButton>
             <CustomButton type='link' url='https://www.linkedin.com/in/deyvison-ramos/' target='_blank' >
               <FaLinkedin size={24} />
