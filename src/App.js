@@ -7,7 +7,7 @@ import Work from "./pages/work/work.component";
 import About from "./pages/about/about.component";
 import Contact from "./pages/contact/contact.component";
 
-import './App.scss';
+import "./App.scss";
 import Footer from "./layout/footer/footer.component";
 
 function App() {

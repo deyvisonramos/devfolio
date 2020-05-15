@@ -1,8 +1,8 @@
 import React from "react";
 
-import './header.styles.scss';
+import "./header.styles.scss";
 // import img from 'assets/images/deyvison-ramos-profile.jpg';
-import { Link } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -19,10 +19,26 @@ const Header = () => {
       </div>
       <nav className="nav-menu">
         <ul className="nav-menu__list">
-          <li className="nav-menu__item nav-menu__item--active"><Link to='/' className="nav-menu__link">Home</Link></li>
-          <li className="nav-menu__item"><Link to='/work' className="nav-menu__link">Work</Link></li>
-          <li className="nav-menu__item"><Link to='/about' className="nav-menu__link">About</Link></li>
-          <li className="nav-menu__item"><Link to='/contact' className="nav-menu__link">Contact</Link></li>
+          <li className="nav-menu__item nav-menu__item--active">
+            <NavLink to="/" className="nav-menu__link" pare>
+              Home
+            </NavLink>
+          </li>
+          <li className="nav-menu__item">
+            <NavLink to="/work" className="nav-menu__link">
+              Work
+            </NavLink>
+          </li>
+          <li className="nav-menu__item">
+            <NavLink to="/about" className="nav-menu__link">
+              About
+            </NavLink>
+          </li>
+          <li className="nav-menu__item">
+            <NavLink to="/contact" className="nav-menu__link">
+              Contact
+            </NavLink>
+          </li>
         </ul>
       </nav>
     </header>
