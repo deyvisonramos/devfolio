@@ -8,8 +8,8 @@ import CustomButton from "../../ui/button/custom-button.component";
 const Home = () => {
   return (
     <>
-      <section className="home-content">
-        <div className="home-content__container">
+      <section className="section-home">
+        <div className="section-home__container">
           <div className="heading">
             <h1 className="heading__primary">Hello World,</h1>
             <h2 className="heading__presentation">I'm Deyvison.</h2>
